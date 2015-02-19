@@ -18,7 +18,7 @@ Briefly, the tool allows the semi-automated evaluation of slice thickness using 
 
 In particular, the loaded image is binarised through a thresholding algorithm, then the pixel values inverted to obtain a white object representing the slice (pixel level = 1) in a black background (pixel level = 0). For each of the three crops, the slice thickness is automatically evaluated by summing the pixels and normalising the result by the number of pixel rows of the crop. STEGUN stores all the data in a data matrix and displays the result as the mean value ± standard deviation. In case of highly irregular slices a warning message is returned to the user (i.e. when the coefficient of variation, calculated as the ratio of the standard deviation to the mean value, is greater than 0.25).
 
-For additional information, contact: [Irene Cristian](mailto:irene.cristiani@gmail.com) or [Chiara Magliaro](mailto:chiara.magliaro@googlemail.com)
+For additional information, contact: [Irene Cristiani](mailto:irene.cristiani@gmail.com) or [Chiara Magliaro](mailto:chiara.magliaro@googlemail.com)
 
 ## REFERENCES
 
